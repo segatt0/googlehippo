@@ -1,0 +1,37 @@
+#hippo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: fixed; */
+  /* top: 500px; */
+  width: 600px;
+  height: 400px;
+  margin-top: 10vh;
+}
+
+.pesquisa {
+  size: 100px;
+  width: 500px;
+  display: block;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  height: 60px;
+  background-color: aqua;
+  width: 100%;
+  position: fixed;
+  top: 5px;
+}
+
+.pai {
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  /* justify-content: space-around; */
+}
