@@ -22,7 +22,7 @@
   height: 60px;
   background-color: aqua;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   top: 5px;
 }
 
@@ -34,4 +34,8 @@
   align-items: flex-end;
 
   /* justify-content: space-around; */
+}
+
+.papai {
+  width: 500px;
 }
