@@ -1,14 +1,3 @@
-#hippo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* position: fixed; */
-  /* top: 500px; */
-  width: 600px;
-  height: 400px;
-  margin-top: 10vh;
-}
-
 .pesquisa {
   size: 100px;
   width: 500px;
@@ -26,7 +15,7 @@
   top: 5px;
 }
 
-.pai {
+/* .pai {
   background-color: grey;
   width: 100%;
   display: flex;
@@ -34,8 +23,32 @@
   align-items: flex-end;
 
   /* justify-content: space-around; */
-}
+/* }
 
 .papai {
   width: 500px;
+} */
+.hipposearch {
+  font-family: 'Style Script', cursive;
+  /* display: block; */
+  margin-left: 45%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+  margin-top: 20%;
+  /* font-optical-sizing: 100px; */
+}
+
+.hipposearch h1 {
+  font-size: 30px;
+}
+
+#hippo {
+  /* display: block; */
+  margin-left: 30%;
+  margin-right: 100%;
+  /* position: fixed; */
+  /* top: 500px; */
+  width: 200px;
+  height: 200px;
+  /* margin-top: 1vh; */
 }
