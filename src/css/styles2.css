@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+.wrapperdowrapperPai {
+  background: #11c6d6;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -27,6 +31,7 @@
 
 .textWrapper h1 {
   font-size: 50px;
+  color: white;
   transition: 0.3s;
   cursor: pointer;
   font-family: 'Style Script', cursive;
@@ -50,9 +55,16 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px;
-  border: solid 1px gray;
+  border: solid 1px;
+  color: white;
   border-radius: 8px;
   margin-top: 20px;
+}
+
+.wrapperSearch:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .wrapperSearch input {
@@ -60,6 +72,12 @@
   /* background: orange; */
   border: none;
   outline: none;
+  background: none;
+  color: white;
+}
+
+.wrapperSearch input::placeholder {
+  color: white;
 }
 
 #btnSearch {
@@ -70,6 +88,120 @@
 }
 
 #btnSearch img {
-  height: auto;
-  width: 45px;
+  height: 40px;
+  width: 48px;
+  filter: invert();
+}
+
+.paizao {
+  background-image: url(./../img/aaaa.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 338px 0;
+}
+
+/* 
+.css-selector {
+  background: linear-gradient(
+    216deg,
+    #ffffff,
+    #ffc800,
+    #ffa600,
+    #fc00b4,
+    #00ffe6
+  );
+
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+} */
+.css-selector {
+  background: linear-gradient(239deg, #00c2cd, #12b7a8);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 84%;
+  }
+  50% {
+    background-position: 100% 17%;
+  }
+  100% {
+    background-position: 0% 84%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 84%;
+  }
+  50% {
+    background-position: 100% 17%;
+  }
+  100% {
+    background-position: 0% 84%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 84%;
+  }
+  50% {
+    background-position: 100% 17%;
+  }
+  100% {
+    background-position: 0% 84%;
+  }
 }

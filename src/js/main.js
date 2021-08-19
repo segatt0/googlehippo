@@ -1,4 +1,7 @@
 var hippoMouse = document.querySelector('.refH1');
+var hippoImg = document.querySelector('.testeee');
+var wrapper = document.querySelector('.paizao');
+
 // console.log(hippoMouse);
 hippoMouse.addEventListener(
   'mouseover',
